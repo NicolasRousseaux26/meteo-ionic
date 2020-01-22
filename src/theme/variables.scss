@@ -74,4 +74,21 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** Webforce **/
+  --ion-color-webforce: #ff0000;
+  --ion-color-webforce-rgb: 255,0,0;
+  --ion-color-webforce-contrast: #ffffff;
+  --ion-color-webforce-contrast-rgb: 255,255,255;
+  --ion-color-webforce-shade: #e00000;
+  --ion-color-webforce-tint: #ff1a1a;
+}
+
+.ion-color-webforce {
+  --ion-color-base: var(--ion-color-webforce);
+  --ion-color-base-rgb: var(--ion-color-webforce-rgb);
+  --ion-color-contrast: var(--ion-color-webforce-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-webforce-contrast-rgb);
+  --ion-color-shade: var(--ion-color-webforce-shade);
+  --ion-color-tint: var(--ion-color-webforce-tint);
 }
