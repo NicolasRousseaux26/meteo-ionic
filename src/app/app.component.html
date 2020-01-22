@@ -7,7 +7,7 @@
     </ion-header>
     <ion-content>
       <ion-list>
-        <ion-item [routerLink]="['/about']">
+        <ion-item [routerLink]="['/about']" (click)="closeMenu()">
           <ion-icon name="home" slot="start"></ion-icon>
           <ion-label>A propos</ion-label>
         </ion-item>
